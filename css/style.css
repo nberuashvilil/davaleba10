@@ -30,7 +30,6 @@ header p{
     margin-left: 240px;
     font: normal normal bold 32px/39px Helvetica Neue;
     color: #FFFFFF;
-
 }
 
 header .mdot{
@@ -52,7 +51,6 @@ header .mdot_first{
     opacity: 1;
 }
 .mdots{
-    
     padding-left: 1100px;
 }
 
@@ -64,15 +62,15 @@ header .mdot_first{
     
 }
 .blocks {
-    position: relative;
     display: flex;
-    width: 1217px;
+    max-width: 1217px;
     margin-top: -5%;
     position: relative;
     
 }
 
 .box {
+    position: relative;
     width: 463px;
     height: 420px;
 }
