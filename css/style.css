@@ -1,0 +1,176 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul, ol{
+    list-style: none;
+}
+
+body {
+    max-width: 1920px;
+    
+}
+
+header{
+    width: 100%;
+    height: 308px;
+    background-color: #0A22F4;
+}
+.nav{
+    display: flex;
+    padding-top: 70px;
+    
+}
+header p{
+    margin-left: 240px;
+    font: normal normal bold 32px/39px Helvetica Neue;
+    color: #FFFFFF;
+
+}
+
+header .mdot{
+    display: inline-block;
+    margin-left: 15px;
+    height: 10px;
+    width: 10px;
+    border-radius: 50px;
+    background-color: #FFFFFF;
+    opacity: 0.2;
+}
+header .mdot_first{
+    display: inline-block;
+    margin-left: 15px;
+    height: 10px;
+    width: 10px;
+    border-radius: 50px;
+    background-color: #FFFFFF;
+    opacity: 1;
+}
+.mdots{
+    
+    padding-left: 1100px;
+}
+
+.first_sec{
+    max-width: 1680px;
+    height: 490px;
+    margin-left: 240px;
+    
+    
+}
+.blocks {
+    position: relative;
+    display: flex;
+    width: 1217px;
+    margin-top: -5%;
+    position: relative;
+    
+}
+
+.box {
+    width: 463px;
+    height: 420px;
+}
+
+.box p{
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 443px;
+    height: 125px;
+    text-align: left;
+    padding: 3%;
+
+	margin-left: 230px;
+    transform: translate(-50%, -120%);
+}
+.second_block{
+    margin-top: -5%;
+}
+
+.other {
+    margin-left: 1519px;
+
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-18)/23px var(--unnamed-font-family-helvetica-neue);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-171717);
+    text-align: left;
+    font: normal normal bold 18px/23px Helvetica Neue;
+    letter-spacing: 0px;
+    color: #171717;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+
+@font-face {
+    font-family: "HelveticaNeue";
+    src: url("../fonts/HelveticaNeue.eot");
+    src: url("../fonts/HelveticaNeue.eot") format("embedded-opentype"),
+      url("../fonts/HelveticaNeue.woff2") format("woff2"),
+      url("../fonts/HelveticaNeue.woff") format("woff"),
+      url("../fonts/HelveticaNeue.ttf") format("truetype"),
+      url("../fonts/HelveticaNeue.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  .main {
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-between;
+  }
+  .logos {
+    display: grid;
+    grid-gap: 25px;
+    grid-template-columns: auto auto auto;
+  }
+  p {
+    width: 463px;
+    height: 240px;
+    font-family: HelveticaNeue;
+    font-size: 16px;
+    text-align: left;
+  }
+  .dots1 {
+    display: flex;
+  }
+  .dot23 {
+    margin-left: 20px;
+    width: 10px;
+    height: 10px;
+    background-color: #000fff;
+    border-radius: 50%;
+    opacity: 30%;
+  }
+  .first {
+    margin-left: 655px;
+    width: 10px;
+    height: 10px;
+    background-color: #000fff;
+    border-radius: 50%;
+  }
+  .dots {
+    display: flex;
+    margin-left: 600px;
+    color: #000fff;
+    width: 10px;
+    height: 10px;
+  }
+  /* .jeka {
+    display: flex;
+    justify-content: space-between;
+  } */
+  span {
+    color: #000fff;
+  }
+
+
+  footer {
+      background-color: #000fff;
+
+  }
